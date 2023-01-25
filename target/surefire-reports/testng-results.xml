@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-23T10:10:13 PST" name="Surefire suite" finished-at="2023-01-23T10:11:01 PST" duration-ms="48070">
+    <groups>
+    </groups>
+    <test started-at="2023-01-23T10:10:13 PST" name="Surefire test" finished-at="2023-01-23T10:11:01 PST" duration-ms="48070">
+      <class name="tests.FourTest">
+        <test-method signature="fourTest()[pri:0, instance:tests.FourTest@78e117e3]" started-at="2023-01-23T10:10:13 PST" name="fourTest" finished-at="2023-01-23T10:10:13 PST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourTest -->
+      </class> <!-- tests.FourTest -->
+      <class name="tests.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:tests.ThreeTest@4b0b0854]" started-at="2023-01-23T10:11:01 PST" name="threeTest" finished-at="2023-01-23T10:11:01 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- tests.ThreeTest -->
+      <class name="tests.TestLogin">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:10:13 PST" name="OpenApplication" finished-at="2023-01-23T10:10:23 PST" duration-ms="9680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:10:23 PST" name="login" data-provider="getLoginData" finished-at="2023-01-23T10:10:35 PST" duration-ms="12258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[itssanjeev2012@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:10:35 PST" name="closure" finished-at="2023-01-23T10:10:35 PST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:10:35 PST" name="OpenApplication" finished-at="2023-01-23T10:10:38 PST" duration-ms="3233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:10:38 PST" name="login" data-provider="getLoginData" finished-at="2023-01-23T10:11:01 PST" duration-ms="22278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@1b1473ab]" started-at="2023-01-23T10:11:01 PST" name="closure" finished-at="2023-01-23T10:11:01 PST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.TestLogin -->
+      <class name="tests.TwoTest">
+        <test-method signature="twoTest()[pri:0, instance:tests.TwoTest@19bb07ed]" started-at="2023-01-23T10:11:01 PST" name="twoTest" finished-at="2023-01-23T10:11:01 PST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

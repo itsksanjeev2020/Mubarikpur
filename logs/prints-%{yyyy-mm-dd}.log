@@ -1,0 +1,80 @@
+10:19:28.950 [TestNG-tests-1] 158  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
+10:19:28.953 [TestNG-tests-1] 160  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
+10:19:28.954 [TestNG-tests-1] 165  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 9
+10:19:28.954 [TestNG-tests-1] 169  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 4194304
+10:19:28.955 [TestNG-tests-1] 170  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
+10:19:28.955 [TestNG-tests-1] 171  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
+10:19:28.955 [TestNG-tests-1] 172  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
+10:19:28.956 [TestNG-tests-1] 173  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
+10:19:28.956 [TestNG-tests-1] 174  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
+10:19:28.957 [TestNG-tests-1] 175  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: false
+10:19:28.957 [TestNG-tests-1] 176  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+10:19:28.981 [TestNG-tests-1] 87   evel io.netty.buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
+10:19:28.981 [TestNG-tests-1] 96   evel io.netty.buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
+10:19:28.981 [TestNG-tests-1] 99   evel io.netty.buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
+10:19:30.299 [Forwarding newSession on session null to remote] 79   evel io.netty.channel.DefaultChannelId --Dio.netty.processId: 15940 (auto-detected)
+10:19:30.306 [Forwarding newSession on session null to remote] 136  evel io.netty.util.NetUtil --Djava.net.preferIPv4Stack: false
+10:19:30.306 [Forwarding newSession on session null to remote] 137  evel io.netty.util.NetUtil --Djava.net.preferIPv6Addresses: false
+10:19:30.325 [Forwarding newSession on session null to remote] 129  evel io.netty.util.NetUtilInitializations -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+10:19:30.328 [Forwarding newSession on session null to remote] 191  evel io.netty.util.NetUtil -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+10:19:30.362 [Forwarding newSession on session null to remote] 101  evel io.netty.channel.DefaultChannelId --Dio.netty.machineId: 54:35:30:ff:fe:3e:f2:77 (auto-detected)
+10:19:30.519 [AsyncHttpClient-1-3] 63   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkAccessible: true
+10:19:30.519 [AsyncHttpClient-1-3] 64   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkBounds: true
+10:19:30.520 [AsyncHttpClient-1-3] 196  evel io.netty.util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50642012
+10:19:30.579 [AsyncHttpClient-1-5] 85   evel io.netty.util.Recycler --Dio.netty.recycler.maxCapacityPerThread: 4096
+10:19:30.580 [AsyncHttpClient-1-5] 86   evel io.netty.util.Recycler --Dio.netty.recycler.ratio: 8
+10:19:30.581 [AsyncHttpClient-1-5] 87   evel io.netty.util.Recycler --Dio.netty.recycler.chunkSize: 32
+10:19:30.581 [AsyncHttpClient-1-5] 88   evel io.netty.util.Recycler --Dio.netty.recycler.blocking: false
+10:19:37.040 [AsyncHttpClient-1-5] 38   evel io.netty.handler.codec.compression.Brotli -brotli4j not in the classpath; Brotli support will be unavailable.
+10:19:37.408 [TestNG-tests-3] 214  evel io.netty.util.internal.ThreadLocalRandom --Dio.netty.initialSeedUniquifier: 0x97bf8ebb5a24d34f
+10:19:37.985 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
+10:19:46.243 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
+10:19:46.503 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
+10:19:47.283 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
+10:19:52.748 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
+10:19:52.936 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
+10:19:53.681 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
+10:19:58.843 [TestNG-tests-4] 50   evel tests.TestLogin -user got login
+10:19:58.843 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
+10:20:02.940 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
+10:20:05.142 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
+10:20:06.363 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
+10:20:06.525 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
+10:20:07.253 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
+10:20:12.639 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
+10:20:12.828 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
+10:20:13.426 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
+10:20:28.508 [TestNG-tests-4] 55   evel tests.TestLogin -user not got login
+10:20:28.509 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
+10:20:28.620 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
+10:25:28.011 [TestNG-tests-2] 83   evel io.netty.handler.ssl.JdkSslContext -Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+10:25:28.019 [TestNG-tests-2] 84   evel io.netty.handler.ssl.JdkSslContext -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+10:25:28.114 [TestNG-tests-2] 44   evel io.netty.channel.MultithreadEventLoopGroup --Dio.netty.eventLoopThreads: 8
+10:25:28.161 [TestNG-tests-2] 110  evel io.netty.channel.nio.NioEventLoop --Dio.netty.noKeySetOptimization: false
+10:25:28.161 [TestNG-tests-2] 111  evel io.netty.channel.nio.NioEventLoop --Dio.netty.selectorAutoRebuildThreshold: 512
+10:25:28.203 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46601e6
+10:25:28.208 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@21e967aa
+10:25:28.211 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@41d25ebd
+10:25:28.213 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@d51a37b
+10:25:28.216 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb30415
+10:25:28.219 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@758df47e
+10:25:28.223 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26f96bc4
+10:25:28.226 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26335e1b
+10:25:28.290 [TestNG-tests-2] 157  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numHeapArenas: 8
+10:25:28.290 [TestNG-tests-2] 158  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
+10:25:28.291 [TestNG-tests-2] 160  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
+10:25:28.291 [TestNG-tests-2] 165  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 9
+10:25:28.292 [TestNG-tests-2] 169  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 4194304
+10:25:28.293 [TestNG-tests-2] 170  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
+10:25:28.293 [TestNG-tests-2] 171  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
+10:25:28.294 [TestNG-tests-2] 172  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
+10:25:28.295 [TestNG-tests-2] 173  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
+10:25:28.295 [TestNG-tests-2] 174  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
+10:25:28.296 [TestNG-tests-2] 175  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: false
+10:25:28.296 [TestNG-tests-2] 176  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+10:25:28.335 [TestNG-tests-2] 87   evel io.netty.buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
+10:25:28.335 [TestNG-tests-2] 96   evel io.netty.buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
+10:25:28.336 [TestNG-tests-2] 99   evel io.netty.buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
+10:25:29.773 [Forwarding newSession on session null to remote] 79   evel io.netty.channel.DefaultChannelId --Dio.netty.processId: 15808 (auto-detected)
+10:25:29.778 [Forwarding newSession on session null to remote] 136  evel io.netty.util.NetUtil --Djava.net.preferIPv4Stack: false
+10:25:29.779 [Forwarding newSession on session null to remote] 137  evel io.netty.util.NetUtil --Djava.net.preferIPv6Addresses: false

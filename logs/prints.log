@@ -1,0 +1,32 @@
+10:25:29.789 [Forwarding newSession on session null to remote] 129  evel io.netty.util.NetUtilInitializations -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+10:25:29.805 [Forwarding newSession on session null to remote] 191  evel io.netty.util.NetUtil -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+10:25:29.838 [Forwarding newSession on session null to remote] 101  evel io.netty.channel.DefaultChannelId --Dio.netty.machineId: 54:35:30:ff:fe:3e:f2:77 (auto-detected)
+10:25:29.962 [AsyncHttpClient-1-5] 63   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkAccessible: true
+10:25:29.963 [AsyncHttpClient-1-5] 64   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkBounds: true
+10:25:29.964 [AsyncHttpClient-1-5] 196  evel io.netty.util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@54df9838
+10:25:30.014 [AsyncHttpClient-1-2] 85   evel io.netty.util.Recycler --Dio.netty.recycler.maxCapacityPerThread: 4096
+10:25:30.015 [AsyncHttpClient-1-2] 86   evel io.netty.util.Recycler --Dio.netty.recycler.ratio: 8
+10:25:30.015 [AsyncHttpClient-1-2] 87   evel io.netty.util.Recycler --Dio.netty.recycler.chunkSize: 32
+10:25:30.016 [AsyncHttpClient-1-2] 88   evel io.netty.util.Recycler --Dio.netty.recycler.blocking: false
+10:25:36.512 [AsyncHttpClient-1-2] 38   evel io.netty.handler.codec.compression.Brotli -brotli4j not in the classpath; Brotli support will be unavailable.
+10:25:36.928 [TestNG-tests-3] 214  evel io.netty.util.internal.ThreadLocalRandom --Dio.netty.initialSeedUniquifier: 0x10ad23e8c420bc77
+10:25:37.875 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
+10:25:47.706 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
+10:25:48.258 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
+10:25:48.902 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
+10:25:54.357 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
+10:25:54.525 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
+10:25:55.325 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
+10:26:00.428 [TestNG-tests-4] 50   evel tests.TestLogin -user got login
+10:26:00.428 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
+10:26:00.681 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
+10:26:02.595 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
+10:26:03.536 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
+10:26:03.707 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
+10:26:04.332 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
+10:26:10.163 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
+10:26:10.295 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
+10:26:10.853 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
+10:26:25.916 [TestNG-tests-4] 55   evel tests.TestLogin -user not got login
+10:26:25.916 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
+10:26:26.149 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
