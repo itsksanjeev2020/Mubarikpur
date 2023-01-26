@@ -1,80 +1,81 @@
-10:19:28.950 [TestNG-tests-1] 158  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
-10:19:28.953 [TestNG-tests-1] 160  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
-10:19:28.954 [TestNG-tests-1] 165  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 9
-10:19:28.954 [TestNG-tests-1] 169  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 4194304
-10:19:28.955 [TestNG-tests-1] 170  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
-10:19:28.955 [TestNG-tests-1] 171  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
-10:19:28.955 [TestNG-tests-1] 172  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
-10:19:28.956 [TestNG-tests-1] 173  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
-10:19:28.956 [TestNG-tests-1] 174  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
-10:19:28.957 [TestNG-tests-1] 175  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: false
-10:19:28.957 [TestNG-tests-1] 176  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-10:19:28.981 [TestNG-tests-1] 87   evel io.netty.buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
-10:19:28.981 [TestNG-tests-1] 96   evel io.netty.buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
-10:19:28.981 [TestNG-tests-1] 99   evel io.netty.buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
-10:19:30.299 [Forwarding newSession on session null to remote] 79   evel io.netty.channel.DefaultChannelId --Dio.netty.processId: 15940 (auto-detected)
-10:19:30.306 [Forwarding newSession on session null to remote] 136  evel io.netty.util.NetUtil --Djava.net.preferIPv4Stack: false
-10:19:30.306 [Forwarding newSession on session null to remote] 137  evel io.netty.util.NetUtil --Djava.net.preferIPv6Addresses: false
-10:19:30.325 [Forwarding newSession on session null to remote] 129  evel io.netty.util.NetUtilInitializations -Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
-10:19:30.328 [Forwarding newSession on session null to remote] 191  evel io.netty.util.NetUtil -Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-10:19:30.362 [Forwarding newSession on session null to remote] 101  evel io.netty.channel.DefaultChannelId --Dio.netty.machineId: 54:35:30:ff:fe:3e:f2:77 (auto-detected)
-10:19:30.519 [AsyncHttpClient-1-3] 63   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkAccessible: true
-10:19:30.519 [AsyncHttpClient-1-3] 64   evel io.netty.buffer.AbstractByteBuf --Dio.netty.buffer.checkBounds: true
-10:19:30.520 [AsyncHttpClient-1-3] 196  evel io.netty.util.ResourceLeakDetectorFactory -Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@50642012
-10:19:30.579 [AsyncHttpClient-1-5] 85   evel io.netty.util.Recycler --Dio.netty.recycler.maxCapacityPerThread: 4096
-10:19:30.580 [AsyncHttpClient-1-5] 86   evel io.netty.util.Recycler --Dio.netty.recycler.ratio: 8
-10:19:30.581 [AsyncHttpClient-1-5] 87   evel io.netty.util.Recycler --Dio.netty.recycler.chunkSize: 32
-10:19:30.581 [AsyncHttpClient-1-5] 88   evel io.netty.util.Recycler --Dio.netty.recycler.blocking: false
-10:19:37.040 [AsyncHttpClient-1-5] 38   evel io.netty.handler.codec.compression.Brotli -brotli4j not in the classpath; Brotli support will be unavailable.
-10:19:37.408 [TestNG-tests-3] 214  evel io.netty.util.internal.ThreadLocalRandom --Dio.netty.initialSeedUniquifier: 0x97bf8ebb5a24d34f
-10:19:37.985 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
-10:19:46.243 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
-10:19:46.503 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
-10:19:47.283 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
-10:19:52.748 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
-10:19:52.936 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
-10:19:53.681 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
-10:19:58.843 [TestNG-tests-4] 50   evel tests.TestLogin -user got login
-10:19:58.843 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
-10:20:02.940 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
-10:20:05.142 [TestNG-tests-4] 23   evel tests.TestLogin -Driver got launched
-10:20:06.363 [TestNG-tests-4] 25   evel tests.TestLogin -Navigated to application URL
-10:20:06.525 [TestNG-tests-4] 33   evel tests.TestLogin -My Account Drop Down got clicked on landing page
-10:20:07.253 [TestNG-tests-4] 35   evel tests.TestLogin -Login option got clicked on landing page
-10:20:12.639 [TestNG-tests-4] 39   evel tests.TestLogin -Email address typed in email field on login page
-10:20:12.828 [TestNG-tests-4] 41   evel tests.TestLogin -password typed in password field on login page
-10:20:13.426 [TestNG-tests-4] 43   evel tests.TestLogin -clicked on login button on login page
-10:20:28.508 [TestNG-tests-4] 55   evel tests.TestLogin -user not got login
-10:20:28.509 [TestNG-tests-4] 58   evel tests.TestLogin -login test passed
-10:20:28.620 [TestNG-tests-4] 65   evel tests.TestLogin -Browser got closed
-10:25:28.011 [TestNG-tests-2] 83   evel io.netty.handler.ssl.JdkSslContext -Default protocols (JDK): [TLSv1.3, TLSv1.2] 
-10:25:28.019 [TestNG-tests-2] 84   evel io.netty.handler.ssl.JdkSslContext -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
-10:25:28.114 [TestNG-tests-2] 44   evel io.netty.channel.MultithreadEventLoopGroup --Dio.netty.eventLoopThreads: 8
-10:25:28.161 [TestNG-tests-2] 110  evel io.netty.channel.nio.NioEventLoop --Dio.netty.noKeySetOptimization: false
-10:25:28.161 [TestNG-tests-2] 111  evel io.netty.channel.nio.NioEventLoop --Dio.netty.selectorAutoRebuildThreshold: 512
-10:25:28.203 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@46601e6
-10:25:28.208 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@21e967aa
-10:25:28.211 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@41d25ebd
-10:25:28.213 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@d51a37b
-10:25:28.216 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1fb30415
-10:25:28.219 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@758df47e
-10:25:28.223 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26f96bc4
-10:25:28.226 [TestNG-tests-2] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@26335e1b
-10:25:28.290 [TestNG-tests-2] 157  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numHeapArenas: 8
-10:25:28.290 [TestNG-tests-2] 158  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numDirectArenas: 8
-10:25:28.291 [TestNG-tests-2] 160  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.pageSize: 8192
-10:25:28.291 [TestNG-tests-2] 165  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxOrder: 9
-10:25:28.292 [TestNG-tests-2] 169  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.chunkSize: 4194304
-10:25:28.293 [TestNG-tests-2] 170  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.smallCacheSize: 256
-10:25:28.293 [TestNG-tests-2] 171  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.normalCacheSize: 64
-10:25:28.294 [TestNG-tests-2] 172  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedBufferCapacity: 32768
-10:25:28.295 [TestNG-tests-2] 173  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimInterval: 8192
-10:25:28.295 [TestNG-tests-2] 174  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.cacheTrimIntervalMillis: 0
-10:25:28.296 [TestNG-tests-2] 175  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.useCacheForAllThreads: false
-10:25:28.296 [TestNG-tests-2] 176  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-10:25:28.335 [TestNG-tests-2] 87   evel io.netty.buffer.ByteBufUtil --Dio.netty.allocator.type: pooled
-10:25:28.335 [TestNG-tests-2] 96   evel io.netty.buffer.ByteBufUtil --Dio.netty.threadLocalDirectBufferSize: 0
-10:25:28.336 [TestNG-tests-2] 99   evel io.netty.buffer.ByteBufUtil --Dio.netty.maxThreadLocalCharBufferSize: 16384
-10:25:29.773 [Forwarding newSession on session null to remote] 79   evel io.netty.channel.DefaultChannelId --Dio.netty.processId: 15808 (auto-detected)
-10:25:29.778 [Forwarding newSession on session null to remote] 136  evel io.netty.util.NetUtil --Djava.net.preferIPv4Stack: false
-10:25:29.779 [Forwarding newSession on session null to remote] 137  evel io.netty.util.NetUtil --Djava.net.preferIPv6Addresses: false
+06:26:04.585 [TestNG-tests-1] 385  evel io.netty.util.internal.PlatformDependent0 -java.nio.Bits.unaligned: available, true
+06:26:04.610 [TestNG-tests-1] 449  evel io.netty.util.internal.PlatformDependent0 -jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @3551a94
+	at jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:392) ~[?:?]
+	at java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:674) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:560) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0$7.run(PlatformDependent0.java:410) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at java.security.AccessController.doPrivileged(AccessController.java:318) ~[?:?]
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:401) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:333) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:88) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:114) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:251) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:224) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at io.netty.util.HashedWheelTimer.<init>(HashedWheelTimer.java:203) ~[netty-common-4.1.84.Final.jar:4.1.84.Final]
+	at org.asynchttpclient.DefaultAsyncHttpClient.newNettyTimer(DefaultAsyncHttpClient.java:111) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.DefaultAsyncHttpClient.<init>(DefaultAsyncHttpClient.java:90) ~[async-http-client-2.12.3.jar:?]
+	at org.asynchttpclient.Dsl.asyncHttpClient(Dsl.java:32) ~[async-http-client-2.12.3.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.createHttpClient(NettyClient.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient.<clinit>(NettyClient.java:47) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.http.netty.NettyClient$Factory.createClient(NettyClient.java:135) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:107) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:94) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.<init>(HttpCommandExecutor.java:85) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.<init>(DriverCommandExecutor.java:80) ~[selenium-remote-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chromium.ChromiumDriverCommandExecutor.<init>(ChromiumDriverCommandExecutor.java:35) ~[selenium-chromium-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver$ChromeDriverCommandExecutor.<init>(ChromeDriver.java:94) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:82) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:50) ~[selenium-chrome-driver-4.7.2.jar:?]
+	at resources.Base.initialBrowserDriver(Base.java:34) ~[classes/:?]
+	at tests.FourTest.fourTest(FourTest.java:17) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:794) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.TestRunner.run(TestRunner.java:596) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64) ~[org.testng_7.4.0.r202105021533.jar:7.4.0]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+06:26:04.616 [TestNG-tests-1] 482  evel io.netty.util.internal.PlatformDependent0 -java.nio.DirectByteBuffer.<init>(long, int): unavailable
+06:26:04.616 [TestNG-tests-1] 1159 evel io.netty.util.internal.PlatformDependent -sun.misc.Unsafe: available
+06:26:04.617 [TestNG-tests-1] 1270 evel io.netty.util.internal.PlatformDependent -maxDirectMemory: 507510784 bytes (maybe)
+06:26:04.618 [TestNG-tests-1] 1289 evel io.netty.util.internal.PlatformDependent --Dio.netty.tmpdir: C:\Users\123\AppData\Local\Temp (java.io.tmpdir)
+06:26:04.618 [TestNG-tests-1] 1368 evel io.netty.util.internal.PlatformDependent --Dio.netty.bitMode: 64 (sun.arch.data.model)
+06:26:04.619 [TestNG-tests-1] 1119 evel io.netty.util.internal.PlatformDependent -Platform: Windows
+06:26:04.620 [TestNG-tests-1] 178  evel io.netty.util.internal.PlatformDependent --Dio.netty.maxDirectMemory: -1 bytes
+06:26:04.620 [TestNG-tests-1] 185  evel io.netty.util.internal.PlatformDependent --Dio.netty.uninitializedArrayAllocationThreshold: -1
+06:26:04.623 [TestNG-tests-1] 71   evel io.netty.util.internal.CleanerJava9 -java.nio.ByteBuffer.cleaner(): available
+06:26:04.624 [TestNG-tests-1] 205  evel io.netty.util.internal.PlatformDependent --Dio.netty.noPreferDirect: false
+06:26:04.637 [TestNG-tests-1] 1010 evel io.netty.util.internal.PlatformDependent -org.jctools-core.MpscChunkedArrayQueue: available
+06:26:04.699 [TestNG-tests-1] 86   evel io.netty.util.internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+06:26:04.700 [TestNG-tests-1] 89   evel io.netty.util.internal.InternalThreadLocalMap --Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+06:26:04.751 [TestNG-tests-1] 83   evel io.netty.handler.ssl.JdkSslContext -Default protocols (JDK): [TLSv1.3, TLSv1.2] 
+06:26:04.751 [TestNG-tests-1] 84   evel io.netty.handler.ssl.JdkSslContext -Default cipher suites (JDK): [TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_AES_128_GCM_SHA256, TLS_AES_256_GCM_SHA384]
+06:26:04.807 [TestNG-tests-1] 44   evel io.netty.channel.MultithreadEventLoopGroup --Dio.netty.eventLoopThreads: 8
+06:26:04.826 [TestNG-tests-1] 110  evel io.netty.channel.nio.NioEventLoop --Dio.netty.noKeySetOptimization: false
+06:26:04.826 [TestNG-tests-1] 111  evel io.netty.channel.nio.NioEventLoop --Dio.netty.selectorAutoRebuildThreshold: 512
+06:26:04.860 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@19035b19
+06:26:04.863 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1c776658
+06:26:04.865 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@30a57c11
+06:26:04.867 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@1d308123
+06:26:04.869 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@716e891f
+06:26:04.871 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@568c64cc
+06:26:04.872 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@4d52cff8
+06:26:04.874 [TestNG-tests-1] 264  evel io.netty.channel.nio.NioEventLoop -instrumented a special java.util.Set into: sun.nio.ch.WEPollSelectorImpl@54f266e8
+06:26:04.919 [TestNG-tests-1] 157  evel io.netty.buffer.PooledByteBufAllocator --Dio.netty.allocator.numHeapArenas: 8

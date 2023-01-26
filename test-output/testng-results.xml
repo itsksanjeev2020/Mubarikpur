@@ -2,20 +2,28 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-25T10:25:25 PST" name="Suite" finished-at="2023-01-25T10:26:26 PST" duration-ms="60568">
+  <suite started-at="2023-01-26T06:26:00 PST" name="Suite" finished-at="2023-01-26T06:27:06 PST" duration-ms="66096">
     <groups>
     </groups>
-    <test started-at="2023-01-25T10:25:25 PST" name="TestThree" finished-at="2023-01-25T10:25:51 PST" duration-ms="25714">
+    <test started-at="2023-01-26T06:26:00 PST" name="TestTwo" finished-at="2023-01-26T06:26:26 PST" duration-ms="25683">
+      <class name="tests.TwoTest">
+        <test-method signature="twoTest()[pri:0, instance:tests.TwoTest@2f62ea70]" started-at="2023-01-26T06:26:00 PST" name="twoTest" finished-at="2023-01-26T06:26:26 PST" duration-ms="25611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoTest -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- TestTwo -->
+    <test started-at="2023-01-26T06:26:00 PST" name="TestThree" finished-at="2023-01-26T06:26:26 PST" duration-ms="25611">
       <class name="tests.ThreeTest">
-        <test-method signature="threeTest()[pri:0, instance:tests.ThreeTest@2ef14fe]" started-at="2023-01-25T10:25:25 PST" name="threeTest" finished-at="2023-01-25T10:25:51 PST" duration-ms="25636" status="PASS">
+        <test-method signature="threeTest()[pri:0, instance:tests.ThreeTest@13330ac6]" started-at="2023-01-26T06:26:00 PST" name="threeTest" finished-at="2023-01-26T06:26:25 PST" duration-ms="25420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- threeTest -->
       </class> <!-- tests.ThreeTest -->
     </test> <!-- TestThree -->
-    <test started-at="2023-01-25T10:25:25 PST" name="TestFour" finished-at="2023-01-25T10:25:51 PST" duration-ms="26102">
+    <test started-at="2023-01-26T06:26:00 PST" name="TestFour" finished-at="2023-01-26T06:26:27 PST" duration-ms="27471">
       <class name="tests.FourTest">
-        <test-method signature="fourTest()[pri:0, instance:tests.FourTest@2421cc4]" started-at="2023-01-25T10:25:25 PST" name="fourTest" finished-at="2023-01-25T10:25:50 PST" duration-ms="24715" status="FAIL">
+        <test-method signature="fourTest()[pri:0, instance:tests.FourTest@60129b9a]" started-at="2023-01-26T06:26:00 PST" name="fourTest" finished-at="2023-01-26T06:26:25 PST" duration-ms="25416" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -52,27 +60,19 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourTest -->
-        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:tests.FourTest@2421cc4]" started-at="2023-01-25T10:25:50 PST" name="closingBrowser" finished-at="2023-01-25T10:25:51 PST" duration-ms="891" status="PASS">
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:tests.FourTest@60129b9a]" started-at="2023-01-26T06:26:27 PST" name="closingBrowser" finished-at="2023-01-26T06:26:27 PST" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closingBrowser -->
       </class> <!-- tests.FourTest -->
     </test> <!-- TestFour -->
-    <test started-at="2023-01-25T10:25:25 PST" name="TestTwo" finished-at="2023-01-25T10:25:50 PST" duration-ms="25395">
-      <class name="tests.TwoTest">
-        <test-method signature="twoTest()[pri:0, instance:tests.TwoTest@7f0d96f2]" started-at="2023-01-25T10:25:25 PST" name="twoTest" finished-at="2023-01-25T10:25:50 PST" duration-ms="25310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- twoTest -->
-      </class> <!-- tests.TwoTest -->
-    </test> <!-- TestTwo -->
-    <test started-at="2023-01-25T10:25:25 PST" name="LoginTest" finished-at="2023-01-25T10:26:26 PST" duration-ms="60568">
+    <test started-at="2023-01-26T06:26:00 PST" name="LoginTest" finished-at="2023-01-26T06:27:06 PST" duration-ms="66090">
       <class name="tests.TestLogin">
-        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:25:25 PST" name="OpenApplication" finished-at="2023-01-25T10:25:47 PST" duration-ms="22054" status="PASS">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:26:00 PST" name="OpenApplication" finished-at="2023-01-26T06:26:22 PST" duration-ms="22393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:25:47 PST" name="login" data-provider="getLoginData" finished-at="2023-01-25T10:26:00 PST" duration-ms="12717" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:26:22 PST" name="login" data-provider="getLoginData" finished-at="2023-01-26T06:26:35 PST" duration-ms="12597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,15 +93,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:26:00 PST" name="closure" finished-at="2023-01-25T10:26:00 PST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:26:35 PST" name="closure" finished-at="2023-01-26T06:26:39 PST" duration-ms="4078" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
-        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:26:00 PST" name="OpenApplication" finished-at="2023-01-25T10:26:03 PST" duration-ms="2854" status="PASS">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:26:39 PST" name="OpenApplication" finished-at="2023-01-26T06:26:44 PST" duration-ms="4999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenApplication -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:26:03 PST" name="login" data-provider="getLoginData" finished-at="2023-01-25T10:26:25 PST" duration-ms="22380" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:26:44 PST" name="login" data-provider="getLoginData" finished-at="2023-01-26T06:27:06 PST" duration-ms="21809" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@24ba9639]" started-at="2023-01-25T10:26:25 PST" name="closure" finished-at="2023-01-25T10:26:26 PST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TestLogin@21fd5faa]" started-at="2023-01-26T06:27:06 PST" name="closure" finished-at="2023-01-26T06:27:06 PST" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closure -->
